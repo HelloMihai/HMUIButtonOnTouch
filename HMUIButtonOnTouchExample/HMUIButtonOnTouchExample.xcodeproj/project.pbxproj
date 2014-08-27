@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBE4DD8819A7F773009BEFBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE4DD8719A7F773009BEFBC /* Foundation.framework */; };
+		BBE4DD8A19A7F773009BEFBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE4DD8919A7F773009BEFBC /* CoreGraphics.framework */; };
+		BBE4DD8C19A7F773009BEFBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE4DD8B19A7F773009BEFBC /* UIKit.framework */; };
+		BBE4DD9219A7F773009BEFBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBE4DD9019A7F773009BEFBC /* InfoPlist.strings */; };
+		BBE4DD9419A7F773009BEFBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE4DD9319A7F773009BEFBC /* main.m */; };
+		BBE4DD9819A7F773009BEFBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE4DD9719A7F773009BEFBC /* AppDelegate.m */; };
+		BBE4DD9B19A7F773009BEFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE4DD9919A7F773009BEFBC /* Main.storyboard */; };
+		BBE4DD9E19A7F773009BEFBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE4DD9D19A7F773009BEFBC /* ViewController.m */; };
+		BBE4DDA019A7F773009BEFBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE4DD9F19A7F773009BEFBC /* Images.xcassets */; };
+		BBE4DDA719A7F773009BEFBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE4DDA619A7F773009BEFBC /* XCTest.framework */; };
+		BBE4DDA819A7F773009BEFBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE4DD8719A7F773009BEFBC /* Foundation.framework */; };
+		BBE4DDA919A7F773009BEFBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE4DD8B19A7F773009BEFBC /* UIKit.framework */; };
+		BBE4DDB119A7F773009BEFBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBE4DDAF19A7F773009BEFBC /* InfoPlist.strings */; };
+		BBE4DDB319A7F773009BEFBC /* HMUIButtonOnTouchExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE4DDB219A7F773009BEFBC /* HMUIButtonOnTouchExampleTests.m */; };
+		BBE4DDBF19A7FC1E009BEFBC /* UIButton+HMUIButtonOnTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE4DDBE19A7FC1E009BEFBC /* UIButton+HMUIButtonOnTouch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBE4DDAA19A7F773009BEFBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBE4DD7C19A7F773009BEFBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE4DD8319A7F773009BEFBC;
+			remoteInfo = HMUIButtonOnTouchExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBE4DD8419A7F773009BEFBC /* HMUIButtonOnTouchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMUIButtonOnTouchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE4DD8719A7F773009BEFBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBE4DD8919A7F773009BEFBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBE4DD8B19A7F773009BEFBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBE4DD8F19A7F773009BEFBC /* HMUIButtonOnTouchExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMUIButtonOnTouchExample-Info.plist"; sourceTree = "<group>"; };
+		BBE4DD9119A7F773009BEFBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBE4DD9319A7F773009BEFBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBE4DD9519A7F773009BEFBC /* HMUIButtonOnTouchExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMUIButtonOnTouchExample-Prefix.pch"; sourceTree = "<group>"; };
+		BBE4DD9619A7F773009BEFBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBE4DD9719A7F773009BEFBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBE4DD9A19A7F773009BEFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBE4DD9C19A7F773009BEFBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBE4DD9D19A7F773009BEFBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBE4DD9F19A7F773009BEFBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBE4DDA519A7F773009BEFBC /* HMUIButtonOnTouchExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMUIButtonOnTouchExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE4DDA619A7F773009BEFBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BBE4DDAE19A7F773009BEFBC /* HMUIButtonOnTouchExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMUIButtonOnTouchExampleTests-Info.plist"; sourceTree = "<group>"; };
+		BBE4DDB019A7F773009BEFBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBE4DDB219A7F773009BEFBC /* HMUIButtonOnTouchExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMUIButtonOnTouchExampleTests.m; sourceTree = "<group>"; };
+		BBE4DDBD19A7FC1E009BEFBC /* UIButton+HMUIButtonOnTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HMUIButtonOnTouch.h"; sourceTree = "<group>"; };
+		BBE4DDBE19A7FC1E009BEFBC /* UIButton+HMUIButtonOnTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HMUIButtonOnTouch.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBE4DD8119A7F773009BEFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4DD8A19A7F773009BEFBC /* CoreGraphics.framework in Frameworks */,
+				BBE4DD8C19A7F773009BEFBC /* UIKit.framework in Frameworks */,
+				BBE4DD8819A7F773009BEFBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE4DDA219A7F773009BEFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4DDA719A7F773009BEFBC /* XCTest.framework in Frameworks */,
+				BBE4DDA919A7F773009BEFBC /* UIKit.framework in Frameworks */,
+				BBE4DDA819A7F773009BEFBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBE4DD7B19A7F773009BEFBC = {
+			isa = PBXGroup;
+			children = (
+				BBE4DD8D19A7F773009BEFBC /* HMUIButtonOnTouchExample */,
+				BBE4DDAC19A7F773009BEFBC /* HMUIButtonOnTouchExampleTests */,
+				BBE4DD8619A7F773009BEFBC /* Frameworks */,
+				BBE4DD8519A7F773009BEFBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBE4DD8519A7F773009BEFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4DD8419A7F773009BEFBC /* HMUIButtonOnTouchExample.app */,
+				BBE4DDA519A7F773009BEFBC /* HMUIButtonOnTouchExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE4DD8619A7F773009BEFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4DD8719A7F773009BEFBC /* Foundation.framework */,
+				BBE4DD8919A7F773009BEFBC /* CoreGraphics.framework */,
+				BBE4DD8B19A7F773009BEFBC /* UIKit.framework */,
+				BBE4DDA619A7F773009BEFBC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBE4DD8D19A7F773009BEFBC /* HMUIButtonOnTouchExample */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4DDBC19A7FBF8009BEFBC /* HMUIButtonOnTouch */,
+				BBE4DD9619A7F773009BEFBC /* AppDelegate.h */,
+				BBE4DD9719A7F773009BEFBC /* AppDelegate.m */,
+				BBE4DD9919A7F773009BEFBC /* Main.storyboard */,
+				BBE4DD9C19A7F773009BEFBC /* ViewController.h */,
+				BBE4DD9D19A7F773009BEFBC /* ViewController.m */,
+				BBE4DD9F19A7F773009BEFBC /* Images.xcassets */,
+				BBE4DD8E19A7F773009BEFBC /* Supporting Files */,
+			);
+			path = HMUIButtonOnTouchExample;
+			sourceTree = "<group>";
+		};
+		BBE4DD8E19A7F773009BEFBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4DD8F19A7F773009BEFBC /* HMUIButtonOnTouchExample-Info.plist */,
+				BBE4DD9019A7F773009BEFBC /* InfoPlist.strings */,
+				BBE4DD9319A7F773009BEFBC /* main.m */,
+				BBE4DD9519A7F773009BEFBC /* HMUIButtonOnTouchExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBE4DDAC19A7F773009BEFBC /* HMUIButtonOnTouchExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4DDB219A7F773009BEFBC /* HMUIButtonOnTouchExampleTests.m */,
+				BBE4DDAD19A7F773009BEFBC /* Supporting Files */,
+			);
+			path = HMUIButtonOnTouchExampleTests;
+			sourceTree = "<group>";
+		};
+		BBE4DDAD19A7F773009BEFBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4DDAE19A7F773009BEFBC /* HMUIButtonOnTouchExampleTests-Info.plist */,
+				BBE4DDAF19A7F773009BEFBC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBE4DDBC19A7FBF8009BEFBC /* HMUIButtonOnTouch */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4DDBD19A7FC1E009BEFBC /* UIButton+HMUIButtonOnTouch.h */,
+				BBE4DDBE19A7FC1E009BEFBC /* UIButton+HMUIButtonOnTouch.m */,
+			);
+			name = HMUIButtonOnTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBE4DD8319A7F773009BEFBC /* HMUIButtonOnTouchExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE4DDB619A7F773009BEFBC /* Build configuration list for PBXNativeTarget "HMUIButtonOnTouchExample" */;
+			buildPhases = (
+				BBE4DD8019A7F773009BEFBC /* Sources */,
+				BBE4DD8119A7F773009BEFBC /* Frameworks */,
+				BBE4DD8219A7F773009BEFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMUIButtonOnTouchExample;
+			productName = HMUIButtonOnTouchExample;
+			productReference = BBE4DD8419A7F773009BEFBC /* HMUIButtonOnTouchExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBE4DDA419A7F773009BEFBC /* HMUIButtonOnTouchExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBE4DDB919A7F773009BEFBC /* Build configuration list for PBXNativeTarget "HMUIButtonOnTouchExampleTests" */;
+			buildPhases = (
+				BBE4DDA119A7F773009BEFBC /* Sources */,
+				BBE4DDA219A7F773009BEFBC /* Frameworks */,
+				BBE4DDA319A7F773009BEFBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBE4DDAB19A7F773009BEFBC /* PBXTargetDependency */,
+			);
+			name = HMUIButtonOnTouchExampleTests;
+			productName = HMUIButtonOnTouchExampleTests;
+			productReference = BBE4DDA519A7F773009BEFBC /* HMUIButtonOnTouchExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBE4DD7C19A7F773009BEFBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = HelloMihai;
+				TargetAttributes = {
+					BBE4DDA419A7F773009BEFBC = {
+						TestTargetID = BBE4DD8319A7F773009BEFBC;
+					};
+				};
+			};
+			buildConfigurationList = BBE4DD7F19A7F773009BEFBC /* Build configuration list for PBXProject "HMUIButtonOnTouchExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBE4DD7B19A7F773009BEFBC;
+			productRefGroup = BBE4DD8519A7F773009BEFBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBE4DD8319A7F773009BEFBC /* HMUIButtonOnTouchExample */,
+				BBE4DDA419A7F773009BEFBC /* HMUIButtonOnTouchExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBE4DD8219A7F773009BEFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4DDA019A7F773009BEFBC /* Images.xcassets in Resources */,
+				BBE4DD9219A7F773009BEFBC /* InfoPlist.strings in Resources */,
+				BBE4DD9B19A7F773009BEFBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE4DDA319A7F773009BEFBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4DDB119A7F773009BEFBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBE4DD8019A7F773009BEFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4DD9E19A7F773009BEFBC /* ViewController.m in Sources */,
+				BBE4DD9819A7F773009BEFBC /* AppDelegate.m in Sources */,
+				BBE4DD9419A7F773009BEFBC /* main.m in Sources */,
+				BBE4DDBF19A7FC1E009BEFBC /* UIButton+HMUIButtonOnTouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE4DDA119A7F773009BEFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4DDB319A7F773009BEFBC /* HMUIButtonOnTouchExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBE4DDAB19A7F773009BEFBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE4DD8319A7F773009BEFBC /* HMUIButtonOnTouchExample */;
+			targetProxy = BBE4DDAA19A7F773009BEFBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBE4DD9019A7F773009BEFBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBE4DD9119A7F773009BEFBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBE4DD9919A7F773009BEFBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBE4DD9A19A7F773009BEFBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBE4DDAF19A7F773009BEFBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBE4DDB019A7F773009BEFBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBE4DDB419A7F773009BEFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBE4DDB519A7F773009BEFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBE4DDB719A7F773009BEFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMUIButtonOnTouchExample/HMUIButtonOnTouchExample-Prefix.pch";
+				INFOPLIST_FILE = "HMUIButtonOnTouchExample/HMUIButtonOnTouchExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBE4DDB819A7F773009BEFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMUIButtonOnTouchExample/HMUIButtonOnTouchExample-Prefix.pch";
+				INFOPLIST_FILE = "HMUIButtonOnTouchExample/HMUIButtonOnTouchExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BBE4DDBA19A7F773009BEFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HMUIButtonOnTouchExample.app/HMUIButtonOnTouchExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMUIButtonOnTouchExample/HMUIButtonOnTouchExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HMUIButtonOnTouchExampleTests/HMUIButtonOnTouchExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BBE4DDBB19A7F773009BEFBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HMUIButtonOnTouchExample.app/HMUIButtonOnTouchExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMUIButtonOnTouchExample/HMUIButtonOnTouchExample-Prefix.pch";
+				INFOPLIST_FILE = "HMUIButtonOnTouchExampleTests/HMUIButtonOnTouchExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBE4DD7F19A7F773009BEFBC /* Build configuration list for PBXProject "HMUIButtonOnTouchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE4DDB419A7F773009BEFBC /* Debug */,
+				BBE4DDB519A7F773009BEFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBE4DDB619A7F773009BEFBC /* Build configuration list for PBXNativeTarget "HMUIButtonOnTouchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE4DDB719A7F773009BEFBC /* Debug */,
+				BBE4DDB819A7F773009BEFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBE4DDB919A7F773009BEFBC /* Build configuration list for PBXNativeTarget "HMUIButtonOnTouchExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE4DDBA19A7F773009BEFBC /* Debug */,
+				BBE4DDBB19A7F773009BEFBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBE4DD7C19A7F773009BEFBC /* Project object */;
+}
